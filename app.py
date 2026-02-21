@@ -11,8 +11,8 @@ import pytz
 
 # ── 2. CONFIG ─────────────────────────────────
 ACCESS_TOKEN    = os.environ.get("ACCESS_TOKEN", "")
-KEY_CURRENT     = "NSE_FO|12345"      # ← your key
-KEY_NEXT        = "NSE_FO|12346"      # ← your key
+KEY_CURRENT     = "NSE_FO|59464"      # ← your key
+KEY_NEXT        = "NSE_FO|52028"      # ← your key
 SYMBOL          = "SBICARD"
 REFRESH_SECONDS = 60
 LOOKBACK_SHORT  = 12
@@ -574,3 +574,4 @@ server = app.server
 
 if __name__ == "__main__":
     app.run(debug=False, host="0.0.0.0", port=8050)
+
